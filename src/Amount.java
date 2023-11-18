@@ -1,12 +1,8 @@
-package AccountM
-
-public class Amount
-{
-    private double amount;
+class Amount {    private double amount;
     private String transactionType;
-    public Amount(double theamount, String theTransactionType)
+    public Amount(double theAmount, String theTransactionType)
     {
-        amount = theamount;
+        amount = theAmount;
         transactionType = theTransactionType;
     }
     public double getAmount()
